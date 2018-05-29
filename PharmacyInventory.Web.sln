@@ -5,6 +5,16 @@ VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmacyInventory.Web", "PharmacyInventory.Web\PharmacyInventory.Web.csproj", "{F60C3DE1-B900-4ADA-8655-88216736DE38}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmacyInventory.Data", "PharmacyInventory.Data\PharmacyInventory.Data.csproj", "{8CF7C61B-16D7-4737-93CE-FF82225FFF1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmacyInventory.Models", "PharmacyInventory.Models\PharmacyInventory.Models.csproj", "{24CD57EF-0B75-4C25-BC6E-8220B16FD29E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmacyInventory.Contracts", "PharmacyInventory.Contracts\PharmacyInventory.Contracts.csproj", "{0DD3CCA0-DFB5-4FE9-BCC2-52D60D24B4E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmacyInventory.Services", "PharmacyInventory.Services\PharmacyInventory.Services.csproj", "{EAF8C734-91DC-4032-8BCC-4A8F2D6C4595}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmacyInventory.Tests", "PharmacyInventory.Tests\PharmacyInventory.Tests.csproj", "{0B018080-FF60-45ED-9383-12B3B2137EDA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +25,26 @@ Global
 		{F60C3DE1-B900-4ADA-8655-88216736DE38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F60C3DE1-B900-4ADA-8655-88216736DE38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F60C3DE1-B900-4ADA-8655-88216736DE38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CF7C61B-16D7-4737-93CE-FF82225FFF1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CF7C61B-16D7-4737-93CE-FF82225FFF1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CF7C61B-16D7-4737-93CE-FF82225FFF1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CF7C61B-16D7-4737-93CE-FF82225FFF1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24CD57EF-0B75-4C25-BC6E-8220B16FD29E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24CD57EF-0B75-4C25-BC6E-8220B16FD29E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24CD57EF-0B75-4C25-BC6E-8220B16FD29E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24CD57EF-0B75-4C25-BC6E-8220B16FD29E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DD3CCA0-DFB5-4FE9-BCC2-52D60D24B4E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DD3CCA0-DFB5-4FE9-BCC2-52D60D24B4E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DD3CCA0-DFB5-4FE9-BCC2-52D60D24B4E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DD3CCA0-DFB5-4FE9-BCC2-52D60D24B4E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAF8C734-91DC-4032-8BCC-4A8F2D6C4595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAF8C734-91DC-4032-8BCC-4A8F2D6C4595}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAF8C734-91DC-4032-8BCC-4A8F2D6C4595}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAF8C734-91DC-4032-8BCC-4A8F2D6C4595}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B018080-FF60-45ED-9383-12B3B2137EDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B018080-FF60-45ED-9383-12B3B2137EDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B018080-FF60-45ED-9383-12B3B2137EDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B018080-FF60-45ED-9383-12B3B2137EDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
