@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PharmacyInventory.Data
 {
-    class Supply
+  public  class Supply
     {
 
         [Key]
@@ -26,7 +26,7 @@ namespace PharmacyInventory.Data
         public string Vendor { get; set; }
 
         [Required]
-        public string ReorderNumber { get; set; }
+        public string ReOrderNumber { get; set; }
 
         [Required]
         public int PriceEach { get; set; }

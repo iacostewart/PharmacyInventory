@@ -31,12 +31,14 @@ namespace PharmacyInventory.Data
         {
             return new ApplicationDbContext();
         }
-
+        
         public DbSet<Drug> Drugs { get; set; }
         public DbSet<Supply> Supplies { get; set; }
         public DbSet<Equipment> Equipments { get; set; }
         public DbSet<Vendor> Vendors { get; set; }
-
+        public DbSet<Inventory> Inventories { get; set; }
+        public DbSet<Center> Centers { get; set; }
+        public DbSet<RegionalManager> RegionalManagers { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -49,8 +51,8 @@ namespace PharmacyInventory.Data
                     .Add(new IdentityUserLoginConfiguration())
                     .Add(new IdentityUserRoleConfiguration());
         }
-        
 
+    
     }
 
     public class IdentityUserLoginConfiguration : EntityTypeConfiguration<IdentityUserLogin>
