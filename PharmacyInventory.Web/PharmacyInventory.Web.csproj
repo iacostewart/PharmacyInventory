@@ -264,16 +264,18 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Center\Index.cshtml" />
+    <Content Include="Views\Drug\Index.cshtml" />
+    <Content Include="Views\Equipment\Index.cshtml" />
+    <Content Include="Views\Inventory\Index.cshtml" />
+    <Content Include="Views\RegionalManager\Index.cshtml" />
+    <Content Include="Views\Supply\Index.cshtml" />
+    <Content Include="Views\Vendor\Index.cshtml" />
+    <Content Include="Views\Vendor\VendorListItem.cshtml" />
+    <Content Include="Views\Center\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Center\" />
-    <Folder Include="Views\Drug\" />
-    <Folder Include="Views\Equipment\" />
-    <Folder Include="Views\Inventory\" />
-    <Folder Include="Views\RegionalManager\" />
-    <Folder Include="Views\Supply\" />
-    <Folder Include="Views\Vendor\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
